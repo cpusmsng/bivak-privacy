@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="sk">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bivak – Zásady ochrany súkromia</title>
+<style>
+  :root { --fg: #1a1a1a; --muted: #555; --bg: #fff; --accent: #b34700; }
+  @media (prefers-color-scheme: dark) { :root { --fg: #eee; --muted: #aaa; --bg: #121212; --accent: #ff9e40; } }
+  body { margin: 0; background: var(--bg); color: var(--fg); font: 17px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 720px; margin: 0 auto; padding: 24px 16px 64px; }
+  h1 { font-size: 1.7rem; margin-bottom: 0; }
+  h2 { font-size: 1.2rem; margin-top: 2rem; color: var(--accent); }
+  .meta { color: var(--muted); margin-top: 4px; }
+  hr { border: 0; border-top: 1px solid #8884; margin: 3rem 0; }
+  a { color: var(--accent); }
+</style>
+</head>
+<body>
+<main>
+<h1>Bivak – Zásady ochrany súkromia</h1>
+<p class="meta">Aplikácia Bivak (sk.tstudios.bivak) · platné od 13. 11. 2026</p>
+
+<h2>Stručne</h2>
+<p>Bivak <strong>nezbiera, neodosiela ani nezdieľa žiadne osobné údaje</strong>. Aplikácia nemá povolenie na prístup na internet. Všetky údaje zostávajú iba vo vašom telefóne.</p>
+
+<h2>Aké údaje aplikácia spracúva</h2>
+<p>Bivak prijíma z vašich hodiniek Garmin cez Bluetooth údaje o aktivite a o stave tela, aby ich mohol zobraziť bez internetu. Ide o tep, nadmorskú výšku, stúpanie a klesanie, vzdialenosť, rýchlosť, tlak, teplotu, Training Effect a voliteľne polohu (len ak ju zapnete). Ráno sú to recovery time, Body Battery, stres, SpO2, dych, VO2 max, HR zóny a prehľad posledných aktivít.</p>
+<p>Tieto údaje sa ukladajú výlučne do lokálnej databázy aplikácie v telefóne. Nepresúvajú sa na žiadny server vývojára ani tretích strán. Záloha aplikácie do cloudu (Android Auto Backup) je vypnutá.</p>
+
+<h2>Prenos z hodiniek</h2>
+<p>Údaje idú z hodiniek do telefónu lokálne cez Bluetooth, prostredníctvom aplikácie Garmin Connect pomocou oficiálneho Connect IQ SDK. Bivak nič nenahráva do Garmin Connect ani do účtu Garmin a nepracuje s vašimi prihlasovacími údajmi. Na spracovanie údajov v aplikácii Garmin Connect a v hodinkách sa vzťahujú <a href="https://www.garmin.com/privacy/">zásady ochrany súkromia spoločnosti Garmin</a>.</p>
+
+<h2>Povolenia</h2>
+<ul>
+  <li><strong>Zariadenia v okolí (Bluetooth)</strong> a <strong>služba na popredí</strong>: príjem údajov z hodiniek počas túry.</li>
+  <li><strong>Notifikácie</strong>: trvalé upozornenie „Bivak prijíma dáta z hodiniek“, kým príjem beží.</li>
+  <li><strong>Výnimka z optimalizácie batérie</strong> (zapínate ju sami) a <strong>spustenie po reštarte</strong>: aby príjem fungoval aj na pozadí.</li>
+  <li><strong>Stav siete</strong>: len na zobrazenie, či je telefón offline. Aplikácia na internet nepristupuje.</li>
+</ul>
+
+<h2>Export a vymazanie</h2>
+<p>Údaje túry môžete sami exportovať do súboru CSV alebo GPX na miesto, ktoré si vyberiete. Túru môžete v aplikácii vymazať. Odinštalovaním aplikácie sa vymažú všetky jej údaje.</p>
+
+<h2>Deti</h2>
+<p>Aplikácia nie je určená deťom do 13 rokov.</p>
+
+<h2>Zmeny a kontakt</h2>
+<p>Zmeny týchto zásad budú zverejnené na tejto stránke s novým dátumom. Otázky môžete položiť cez <a href="https://github.com/cpusmsng/bivak-privacy/issues">Issues tohto repozitára</a> alebo na kontaktný e-mail vývojára uvedený pri aplikácii v Google Play.</p>
+
+<hr>
+
+<h1 lang="en">Bivak – Privacy Policy</h1>
+<p class="meta" lang="en">Bivak app (sk.tstudios.bivak) · effective 13 November 2026</p>
+<div lang="en">
+<p><strong>Bivak does not collect, transmit or share any personal data.</strong> The app has no internet permission. All data stays on your phone.</p>
+<p>Bivak receives activity and wellness data from your Garmin watch over Bluetooth (heart rate, altitude, ascent/descent, distance, speed, pressure, temperature, Training Effect, optional location, and morning metrics such as recovery time, Body Battery, stress, SpO2, respiration, VO2 max, heart rate zones and recent activities) to show it offline. The data is stored only in the app's local database; it is never sent to the developer or third parties, and Android Auto Backup is disabled.</p>
+<p>Data travels from the watch to the phone locally via the Garmin Connect app using the official Connect IQ SDK. Bivak uploads nothing to Garmin Connect and never handles your Garmin credentials. <a href="https://www.garmin.com/privacy/">Garmin's privacy policy</a> applies to Garmin Connect and the watch.</p>
+<p>Permissions: Bluetooth (nearby devices) and a connected-device foreground service to receive data; notifications for the ongoing "receiving" notice; an optional battery-optimization exemption and start on boot to keep receiving in the background; network state only to show whether the phone is offline.</p>
+<p>You can export a trip as CSV or GPX to a location you choose, delete trips in the app, and uninstalling the app deletes all its data. The app is not directed at children under 13. Changes will be posted on this page. Questions: <a href="https://github.com/cpusmsng/bivak-privacy/issues">Issues of this repository</a> or the developer contact e-mail on Google Play.</p>
+</div>
+</main>
+</body>
+</html>
