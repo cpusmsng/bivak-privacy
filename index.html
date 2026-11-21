@@ -19,7 +19,7 @@
 <body>
 <main>
 <h1>Bivak – Zásady ochrany súkromia</h1>
-<p class="meta">Aplikácia Bivak (sk.tstudios.bivak) · platné od 13. 11. 2026</p>
+<p class="meta">Aplikácia Bivak (sk.tstudios.bivak) · platné od 13. 11. 2026 · aktualizované 21. 11. 2026 (Health Connect)</p>
 
 <h2>Stručne</h2>
 <p>Bivak <strong>nezbiera, neodosiela ani nezdieľa žiadne osobné údaje</strong>. Aplikácia nemá povolenie na prístup na internet. Všetky údaje zostávajú iba vo vašom telefóne.</p>
@@ -31,11 +31,15 @@
 <h2>Prenos z hodiniek</h2>
 <p>Údaje idú z hodiniek do telefónu lokálne cez Bluetooth, prostredníctvom aplikácie Garmin Connect pomocou oficiálneho Connect IQ SDK. Bivak nič nenahráva do Garmin Connect ani do účtu Garmin a nepracuje s vašimi prihlasovacími údajmi. Na spracovanie údajov v aplikácii Garmin Connect a v hodinkách sa vzťahujú <a href="https://www.garmin.com/privacy/">zásady ochrany súkromia spoločnosti Garmin</a>.</p>
 
+<h2>Health Connect</h2>
+<p>Ak to povolíte (Nastavenia → Health Connect), Bivak <strong>číta</strong> z Health Connect záznamy, ktoré tam zapisuje aplikácia Garmin Connect: cvičenie (začiatok, koniec, typ), tep, rýchlosť, vzdialenosť a nastúpané metre. Použije ich len na doplnenie častí túry, ktoré hodinky do Bivaku neposlali (napríklad keď bol telefón dlho vypnutý). Bivak číta iba záznamy z Garmin Connect a iba v čase túr, ktoré už má. Do Health Connect nič nezapisuje, údaje ukladá len do lokálnej databázy v telefóne a nikam ich neposiela. Povolenie môžete kedykoľvek odobrať v nastaveniach Health Connect.</p>
+
 <h2>Povolenia</h2>
 <ul>
   <li><strong>Zariadenia v okolí (Bluetooth)</strong> a <strong>služba na popredí</strong>: príjem údajov z hodiniek počas túry.</li>
   <li><strong>Notifikácie</strong>: trvalé upozornenie „Bivak prijíma dáta z hodiniek“, kým príjem beží.</li>
   <li><strong>Výnimka z optimalizácie batérie</strong> (zapínate ju sami) a <strong>spustenie po reštarte</strong>: aby príjem fungoval aj na pozadí.</li>
+  <li><strong>Health Connect – čítanie</strong> cvičenia, tepu, rýchlosti, vzdialenosti, nastúpaných metrov a starších údajov (voliteľné): doplnenie túr, pozri vyššie.</li>
   <li><strong>Stav siete</strong>: len na zobrazenie, či je telefón offline. Aplikácia na internet nepristupuje.</li>
 </ul>
 
@@ -51,12 +55,13 @@
 <hr>
 
 <h1 lang="en">Bivak – Privacy Policy</h1>
-<p class="meta" lang="en">Bivak app (sk.tstudios.bivak) · effective 13 November 2026</p>
+<p class="meta" lang="en">Bivak app (sk.tstudios.bivak) · effective 13 November 2026 · updated 21 November 2026 (Health Connect)</p>
 <div lang="en">
 <p><strong>Bivak does not collect, transmit or share any personal data.</strong> The app has no internet permission. All data stays on your phone.</p>
 <p>Bivak receives activity and wellness data from your Garmin watch over Bluetooth (heart rate, altitude, ascent/descent, distance, speed, pressure, temperature, Training Effect, optional location, and morning metrics such as recovery time, Body Battery, stress, SpO2, respiration, VO2 max, heart rate zones and recent activities) to show it offline. The data is stored only in the app's local database; it is never sent to the developer or third parties, and Android Auto Backup is disabled.</p>
 <p>Data travels from the watch to the phone locally via the Garmin Connect app using the official Connect IQ SDK. Bivak uploads nothing to Garmin Connect and never handles your Garmin credentials. <a href="https://www.garmin.com/privacy/">Garmin's privacy policy</a> applies to Garmin Connect and the watch.</p>
-<p>Permissions: Bluetooth (nearby devices) and a connected-device foreground service to receive data; notifications for the ongoing "receiving" notice; an optional battery-optimization exemption and start on boot to keep receiving in the background; network state only to show whether the phone is offline.</p>
+<p>Health Connect (optional, Settings → Health Connect): Bivak <strong>reads</strong> the exercise sessions, heart rate, speed, distance and elevation gained that the Garmin Connect app writes to Health Connect, only Garmin Connect's records and only for the time of trips it already has, to fill parts of a trip the watch did not deliver. It writes nothing to Health Connect, keeps the data only in its local database and never sends it anywhere. You can revoke the access at any time in Health Connect.</p>
+<p>Permissions: Bluetooth (nearby devices) and a connected-device foreground service to receive data; notifications for the ongoing "receiving" notice; an optional battery-optimization exemption and start on boot to keep receiving in the background; network state only to show whether the phone is offline; optional Health Connect read access (see above).</p>
 <p>You can export a trip as CSV or GPX to a location you choose, delete trips in the app, and uninstalling the app deletes all its data. The app is not directed at children under 13. Changes will be posted on this page. Questions: <a href="https://github.com/cpusmsng/bivak-privacy/issues">Issues of this repository</a> or the developer contact e-mail on Google Play.</p>
 </div>
 </main>
